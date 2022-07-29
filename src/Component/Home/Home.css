@@ -1,6 +1,26 @@
 .ellipse{
-    width: 703.15px;
-height: 735px;
-left: 1078px;
-top: 289px;
+    width: 503.15px;
+    height: 535px;
+    margin-left: 40px;
+}
+.welcomeText{
+    width: 638px;
+height: 306px;
+margin-left: 108px;
+font-weight: 700;
+font-size: 92px;
+line-height: 153px;
+
+color: #28ACE2;
+}
+
+.itService{
+    width: 619px;
+    margin-left: 108px;
+height: 190px;
+font-weight: 400;
+font-size: 25px;
+line-height: 38px;
+text-align: justify;
+color: #2EBBE5;
 }

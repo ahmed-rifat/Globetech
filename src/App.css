@@ -1,5 +1,8 @@
 .body{
   background: linear-gradient(246.24deg, #00094D 0%, #000424 100%);
+  
+font-family: 'Poppins';
+font-style: normal;
 }
 .App {
   text-align: center;
