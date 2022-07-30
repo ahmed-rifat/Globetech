@@ -7,8 +7,10 @@ const Login = () => {
         <div className='row'>
             <div className='col-4 globtechText'>
             
-                    <h1 className='globetechCompany'>GLOBETECH</h1>
+                   <div className='mt-5'>
+                   <h1 className='globetechCompany'>GLOBETECH</h1>
                     <h1 className='globetechCompany'>COMPANY LIMITED</h1>
+                   </div>
 
                 
                

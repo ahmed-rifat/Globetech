@@ -1,9 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import navanaLogo from '../../globetech logo.png';
+import CustomLink from '../CustomLink/CustomLink';
+import "./Headers.css"
 
 const Headers = () => {
     return (
@@ -15,9 +16,9 @@ const Headers = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             
-            <Link to ="/home">Home</Link>
-            <Link to="/services">Services</Link>
-            <Link to="/login">Login</Link>
+            <CustomLink className='me-3 text-decoration-none' to ="/home">Home</CustomLink>
+            <CustomLink className='me-3 text-decoration-none' to="/services">Services</CustomLink>
+            <CustomLink className='text-decoration-none' to="/login">Login</CustomLink>
           </Nav>
         </Navbar.Collapse>
       </Container>
