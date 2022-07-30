@@ -5,13 +5,25 @@ import erp from '../../image 4.png';
 import bulksms from '../../bulk 1.png';
 import grapichs from '../../image 5.png';
 import digital from '../../image 6.png';
+import vector from '../../Vector.png';
 import "./Services.css"
 
 const Services = () => {
     return (
         <div>
-            <h3>SERVICES</h3>
-            <h3>We provides services to our clients</h3>
+            <div className='d-flex align-items-center vector2'>
+                <div>
+                    <div className='line'></div>
+                    <div className='line'></div>
+                    <div className='line'></div>
+                    
+                </div>
+                <div>
+                     <img src={vector} alt="" />
+                </div>
+            </div>
+            <h3 className='text-center services'>SERVICES</h3>
+            <h3 className='text-center clientText'>We provides services to our clients</h3>
                {/* card */}
             <div className='cardbox'>
                 {/* card1 */}

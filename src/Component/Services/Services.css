@@ -1,3 +1,25 @@
+.vector2{
+    margin-top: 80px;
+}
+.vector2:hover{
+   margin-left: 70%;
+}
+.services{
+font-size: 36px;
+line-height: 59px;
+margin-top: 53px;
+letter-spacing: 0.15em;
+
+color: #FFFFFF;
+}
+.clientText{
+font-size: 45px;
+line-height: 68px;
+margin-bottom: 30px;
+letter-spacing: 0.15em;
+
+color: #FFFFFF;
+}
 .cardbox{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -6,6 +28,7 @@
     width: 400px;
 height: 574px;
 margin-left: 20px;
+margin-bottom: 40px;
 margin-top: 20px;
 background: #FFFFFF;
 border-radius: 29px;
