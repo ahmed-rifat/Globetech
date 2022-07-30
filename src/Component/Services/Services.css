@@ -1,18 +1,37 @@
+.cardbox{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
 .boxs{
-    width: 473px;
-height: 774px;
-left: 138px;
-top: 537px;
-
+    width: 400px;
+height: 574px;
+margin-left: 20px;
+margin-top: 20px;
 background: #FFFFFF;
 border-radius: 29px;
 }
+.imgSize{
+    width: 300px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.textHead{
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    align-items: center;
+    letter-spacing: 0.15em;
+    
+    color: #2397CD;
+}
+.textArea{
+margin-left: 20px;
+}
 .buttons{
     width: 219px;
-height: 60px;
-left: 265px;
-top: 1178px;
-
+height: 50px;
+margin-left: 90px;
+margin-top: 16px;
 background: #2397CD;
 border-radius: 25px;
 color: #FFFFFF;

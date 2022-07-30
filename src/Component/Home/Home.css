@@ -9,8 +9,6 @@ height: 306px;
 margin-left: 108px;
 font-weight: 700;
 font-size: 92px;
-line-height: 153px;
-
 color: #28ACE2;
 }
 
@@ -20,7 +18,47 @@ color: #28ACE2;
 height: 190px;
 font-weight: 400;
 font-size: 25px;
-line-height: 38px;
 text-align: justify;
 color: #2EBBE5;
+}
+#bestIt{
+    color: #9EB540;
+}
+
+.line{
+width: 70px;
+height: 0px;
+margin-left: 108px;
+margin-top: 2px;
+border: 2px solid #28ACE2;
+
+}
+.vector:hover{
+    margin-left: 50%;
+}
+#globetech{
+    color: #D0F344;
+}
+.supportbtn{
+    width: 249px;
+    color: #00052F;
+    height: 72px;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 152%;
+    margin-left: 108px;
+    background: linear-gradient(265.22deg, #DEF77D 0%, #D0F344 100%);
+    box-shadow: inset -8px -8px 16px #B6CC63, inset 8px 8px 16px rgba(255, 255, 255, 0.5);
+    border-radius: 4px;
+}
+.missionbtn{
+    width: 249px;
+    height: 72px;
+    border: 2px solid #8FE5FF;
+    background: linear-gradient(246.24deg, #00094D 0%, #000424 100%);
+    color: #8FE5FF;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 152%;
+    border-radius: 4px;
 }
