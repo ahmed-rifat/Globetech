@@ -9,7 +9,7 @@ import Login from './Component/Login/Login';
 function App() {
   return (
     <div className='body'>
-      <Headers></Headers>
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />

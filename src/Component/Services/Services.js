@@ -7,10 +7,12 @@ import grapichs from '../../image 5.png';
 import digital from '../../image 6.png';
 import vector from '../../Vector.png';
 import "./Services.css"
+import Headers from '../Headers/Headers';
 
 const Services = () => {
     return (
         <div>
+         <Headers></Headers>
             <div className='d-flex align-items-center vector2'>
                 <div>
                     <div className='line'></div>

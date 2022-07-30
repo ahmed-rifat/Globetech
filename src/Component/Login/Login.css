@@ -74,3 +74,15 @@ color: #FFFFFF;
     margin-left: -30px; 
     cursor: pointer;
 }
+footer{
+    font-weight: 400;
+    margin-top: 65px;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 0.15em;
+color: #8B8282;
+}
+.vector1{
+    margin-top:320px;
+    margin-left: 200px;
+}

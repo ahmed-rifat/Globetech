@@ -2,20 +2,153 @@
     width: 503.15px;
     height: 535px;
     margin-left: 40px;
+    margin-top: 80px;
+}
+.ellipse4{
+width: 100px;
+height: 100px;
+margin-left: 210px;
+margin-top: 200px;
+background: linear-gradient(265.22deg, #DEF77D 0%, #D0F344 100%);
+border-radius: 50%;
+}
+.ellipse3{
+box-sizing: border-box;
+width: 250.07px;
+height: 250.07px;
+margin-left: 140px;
+margin-top: -170px;
+border: 2px solid #006E8F;
+border-radius: 50%;
+}
+.ellipse2{
+    box-sizing: border-box;
+width: 350.07px;
+height: 350.07px;
+margin-left: 90px;
+margin-top: -300px;
+border: 2px solid #006E8F;
+border-radius: 50%;
+}
+.ellipse1{
+    box-sizing: border-box;
+width: 450.07px;
+height: 450.07px;
+margin-left: 40px;
+margin-top: -400px;
+border: 2px solid #006E8F;
+border-radius: 50%;
+}
+
+
+.ellipse10{
+    width: 24.78px;
+height: 24.78px;
+margin-left: 160.4px;
+margin-top: -320.6px;
+border-radius: 50%;
+background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
+animation: mymove10 5s infinite;
+position: relative;
+}
+.ellipse11{
+    width: 50px;
+    height: 50px;
+    margin-left: 160.4px;
+    margin-top: 130.6px;
+    border-radius: 50%;
+    background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
+    animation: mymove11 5s infinite;
+position: relative;
+    }
+.ellipse6{
+    width: 30.75px;
+height: 30.75px;
+margin-left: 415.4px;
+margin-top: -80.6px;
+border-radius: 50%;
+background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
+animation: mymove6 5s infinite;
+position: relative;
+}
+.ellipse9{
+    width: 37.78px;
+height: 37.8px;
+margin-left: 345.4px;
+margin-top: -220.6px;
+border-radius: 50%;
+background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
+animation: mymove9 5s infinite;
+position: relative;
+}
+.ellipse7{
+    width: 35.78px;
+height: 35.78px;
+margin-left: 240.4px;
+margin-top: 325.6px;
+border-radius: 50%;
+background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
+animation: mymove7 5s infinite;
+position: relative;
+}
+.ellipse8{
+    width: 45.78px;
+height: 45.78px;
+margin-left: 200.4px;
+margin-top: -480.6px;
+border-radius: 50%;
+background: linear-gradient(225deg, #C2F1FF -0.34%, #5CD9FF 100.05%);
+animation: mymove8 5s infinite;
+position: relative;
+}
+
+@keyframes mymove10 {
+    0%{ left: 0px;}
+    50%{left: 180px;}
+}
+@keyframes mymove11 {
+    0%{ top: 0px;}
+    0%{ left: 0px;} 
+    50%{left: -40px;}
+    50%{top: -100px;}
+}
+@keyframes mymove6 {
+    0%{ bottom: 0px;}
+    0%{ left: 0px;} 
+    50%{left: -70px;}
+    50%{bottom: -100px;}
+}
+@keyframes mymove9 {
+    0%{ left: 0px;} 
+    0%{ top: 0px;} 
+    50%{left: -150px;}
+    50%{top: -20px;}
+}
+@keyframes mymove7 {
+    0%{ left: 0px;} 
+    0%{ top: 0px;} 
+    50%{left: -180px;}
+    50%{top: -100px;}
+}
+@keyframes mymove8 {
+    0%{ right: 0px;} 
+    0%{ bottom: 0px;} 
+    50%{right: -190px;}
+    50%{bottom: -50px;}
 }
 .welcomeText{
     width: 638px;
-height: 306px;
+height: 200px;
 margin-left: 108px;
 font-weight: 700;
-font-size: 92px;
+font-size: 82px;
 color: #28ACE2;
 }
 
 .itService{
     width: 619px;
     margin-left: 108px;
-height: 190px;
+height: 160px;
 font-weight: 400;
 font-size: 25px;
 text-align: justify;
@@ -33,8 +166,17 @@ margin-top: 2px;
 border: 2px solid #28ACE2;
 
 }
+.vectorImg{
+    height: 51px;
+width: 80px;
+
+}
+.vector{
+
+    margin-top: 80px;
+}
 .vector:hover{
-    margin-left: 50%;
+    margin-left: 70%;
 }
 #globetech{
     color: #D0F344;
@@ -61,4 +203,11 @@ border: 2px solid #28ACE2;
     font-size: 26px;
     line-height: 152%;
     border-radius: 4px;
+}
+.feature{
+    margin-top: 40px;
+    margin-left: 108px;
+    height: 814px;
+    width: 1200px;
+    margin-bottom: 40px;
 }
