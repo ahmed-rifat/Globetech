@@ -87,3 +87,58 @@ color: #8B8282;
     margin-top:320px;
     margin-left: 200px;
 }
+
+/* responsive */
+    /* For mobile phones: */
+
+
+    @media only screen and (max-width: 767px) {
+        
+        .login{
+            
+            margin-left: 10px;
+            width: 378px;
+            height: 407px;
+            
+        }
+        .email{
+            width: 350px;
+        }
+        .password{
+            width: 350px;
+        }
+        .loginBtn{
+            width: 350px;
+        
+        }
+        .eye{
+            margin-left: -30px; 
+            cursor: pointer;
+        }
+        
+        .vector1{
+            margin-left: 190px;
+            margin-bottom: 20px;
+        }
+       
+      }
+
+      /* for tablet  */
+
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .login{
+            
+            margin-left: 10px;
+            
+        }
+        .loginForm{
+            width: 510px;
+        
+        }
+        
+
+        .vector1{
+            margin-left: 120px;
+        }
+       
+      }

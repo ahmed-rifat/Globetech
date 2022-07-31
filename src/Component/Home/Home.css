@@ -213,3 +213,188 @@ width: 80px;
     height: 814px;
     margin-bottom: 40px;
 }
+/* responsive */
+    /* For mobile phones: */
+
+
+    @media only screen and (max-width: 767px) {
+        .feature{
+            margin-left:8px;
+            
+        }
+
+        .welcomeText{
+            width: 400px;
+        height: 200px;
+        margin-left: 8px;
+        
+     
+        }
+        
+        .itService{
+            margin-top: 100px;
+            width: 350px;
+            margin-left:8px;
+            height: 350px;
+            
+        }
+        .supportbtn{
+            width: 249px;
+            height: 72px;
+            margin-left:0px ;
+            margin-bottom: 20px;
+            
+        }
+
+        /* start */
+        .ellipse4{
+            width: 50px;
+            height: 50px;
+            
+            }
+            .ellipse3{
+            width: 150.07px;
+            height: 150.07px;
+            margin-left: 160px;
+            margin-top: -100px;
+            
+            }
+            .ellipse2{
+            width: 250.07px;
+            height: 250.07px;
+            margin-left: 110px;
+            margin-top: -200px;
+           
+            }
+            .ellipse1{
+            width: 350.07px;
+            height: 350.07px;
+            margin-left: 60px;
+            margin-top: -300px;
+            
+            }
+            
+            
+            .ellipse10{
+            margin-left: 160.4px;
+            margin-top: -220.6px;
+            
+            }
+            .ellipse11{
+                
+                margin-left: 190.4px;
+                margin-top: 60.6px;
+                }
+            .ellipse6{
+            margin-left: 340.4px;
+            margin-top: -80.6px;
+            
+            }
+            .ellipse9{
+            margin-left: 305.4px;
+            margin-top: -150.6px;
+            }
+            .ellipse7{
+               
+            margin-left: 240.4px;
+            margin-top: 225.6px;
+            
+            }
+            .ellipse8{
+            margin-left: 200.4px;
+            margin-top: -380.6px;
+           
+            }
+            
+            @keyframes mymove10 {
+                0%{ left: 0px;}
+                50%{left: 130px;}
+            }
+            @keyframes mymove11 {
+                0%{ top: 0px;}
+                0%{ left: 0px;} 
+                50%{left: -50px;}
+                50%{top: -60px;}
+            }
+            @keyframes mymove6 {
+                0%{ bottom: 0px;}
+                0%{ left: 0px;} 
+                50%{left: -70px;}
+                50%{bottom: -90px;}
+            }
+            @keyframes mymove9 {
+                0%{ left: 0px;} 
+                0%{ top: 0px;} 
+                50%{left: -130px;}
+                50%{top: -20px;}
+            }
+            @keyframes mymove7 {
+                0%{ left: 0px;} 
+                0%{ top: 0px;} 
+                50%{left: -180px;}
+                50%{top: -100px;}
+            }
+            @keyframes mymove8 {
+                0%{ right: 0px;} 
+                0%{ bottom: 0px;} 
+                50%{right: -170px;}
+                50%{bottom: -100px;}
+            }
+
+
+       
+        #fullellipse{
+         margin-bottom: 300px;
+         margin-left: -50px;
+        }
+        @keyframes myvector {
+            0%{ right: 0px;} 
+            50%{right: -100px;}
+        }
+       
+      }
+
+      /* for tablet  */
+
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .feature{
+            margin-left:8px;
+            
+        }
+
+        .welcomeText{
+            width: 400px;
+        height: 200px;
+        margin-left: 8px;
+
+        }
+        
+        .itService{
+            margin-top: 100px;
+            width: 350px;
+            margin-left:8px;
+            height: 350px;
+            
+        }
+        .supportbtn{
+            width: 249px;
+            height: 72px;
+            margin-left:0px ;
+            margin-bottom: 20px;
+            
+        }
+        .missionbtn{
+            margin-bottom: 15px;
+        }
+        
+        #fullellipse{
+            margin-bottom: 300px;
+        }
+        @keyframes myvector {
+            0%{ right: 0px;} 
+            50%{right: -20px;}
+        }
+       
+      }
+       
+      

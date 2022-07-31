@@ -9,8 +9,8 @@ import "./Login.css"
 const Login = () => {
     
     return (
-        <div className='row'>
-            <div className='col-4 globtechText'>
+        <div className='row loginPage'>
+            <div className='col col-lg-4 col-md-4 col-sm-6 globtechText'>
             
                    <div className='mt-5'>
                    <h1 className='globetechCompany'>GLOBETECH</h1>
@@ -23,7 +23,7 @@ const Login = () => {
 
                   <CustomLink to='/home'> <img className='vector1' src={vector1} alt="" /> </CustomLink>
             </div>
-            <div className='col-8 loginForm'>
+            <div className='col col-lg-8 col-md-8 col-sm-6 loginForm'>
                    <div className='login'>
                        <div className='text-center'>
                             <h3 className='welcomeText2'>Welcome</h3>

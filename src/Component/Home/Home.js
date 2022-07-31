@@ -8,10 +8,10 @@ import Headers from '../Headers/Headers';
 
 const Home = () => {
     return (
-        <section>
+        <div>
             <Headers></Headers>
             <div className='container row'>
-            <div className='col-8'>
+            <div className='col col-lg-8 col-md-12 col-sm-12'>
             <div className='d-flex align-items-center vector'>
                 <div>
                     <div className='line'></div>
@@ -31,9 +31,10 @@ const Home = () => {
             </div>
             </div>
 
-            <div className='col-4'>
+            <div className='col col-lg-4 col-md-12 col-sm-12'>
 
                 {/* <img className='ellipse' src={bannerImg} alt="" /> */}
+            <div id='fullellipse'>
                 <section>
                 <div className='ellipse4'></div>
                 <div className='ellipse3'></div>
@@ -50,6 +51,7 @@ const Home = () => {
                 <div className='ellipse7'></div>
                 <div className='ellipse8'></div>
                </section>
+            </div>
 
             </div>
         </div>
@@ -60,7 +62,7 @@ const Home = () => {
             </div>
             
         
-        </section>
+        </div>
         
     );
 };

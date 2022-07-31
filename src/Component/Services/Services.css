@@ -67,3 +67,52 @@ font-weight: 600;
 font-size: 26px;
 line-height: 32px;
 }
+
+/* responsive */
+    /* For mobile phones: */
+
+
+    @media only screen and (max-width: 767px) {
+        .cardbox{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+        }
+
+        .boxs{
+            width: 350px;
+        height: 574px;
+        }
+        .buttons{
+        margin-left: 70px;
+        
+        }
+        @keyframes myvector2 {
+            0%{ left: 0px;} 
+            100%{left: 130px;}
+        }
+       
+      }
+
+      /* for tablet  */
+
+      @media only screen and (min-width: 768px) and (max-width: 1023px) {
+        .cardbox{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .boxs{
+            width: 350px;
+        height: 574px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+        margin-top: 20px;
+        background: #FFFFFF;
+        border-radius: 29px;
+        }
+        @keyframes myvector2 {
+            0%{ left: 0px;} 
+            100%{left: 500px;}
+        }
+       
+      }
