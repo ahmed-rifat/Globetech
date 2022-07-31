@@ -11,7 +11,7 @@ const Headers = () => {
         <div>
    <Navbar expand="lg">
       <Container>
-        <Navbar.Brand href="#home"><img src={navanaLogo} alt="" /></Navbar.Brand>
+        <CustomLink to="/home"><img src={navanaLogo} alt="" /></CustomLink>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
