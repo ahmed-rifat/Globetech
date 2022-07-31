@@ -13,7 +13,7 @@ const Services = () => {
     return (
         <div>
          <Headers></Headers>
-            <div className='d-flex align-items-center vector2'>
+            <div className='d-flex align-items-center w-100 vector2'>
                 <div>
                     <div className='line'></div>
                     <div className='line'></div>
@@ -21,7 +21,7 @@ const Services = () => {
                     
                 </div>
                 <div>
-                     <img src={vector} alt="" />
+                     <img className='vectorImg' src={vector} alt="" />
                 </div>
             </div>
             <h3 className='text-center services'>SERVICES</h3>

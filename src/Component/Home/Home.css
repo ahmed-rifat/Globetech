@@ -174,9 +174,12 @@ width: 80px;
 .vector{
 
     margin-top: 80px;
+    animation: myvector 3s infinite;
+    position: relative;
 }
-.vector:hover{
-    margin-left: 70%;
+@keyframes myvector {
+    0%{ right: 0px;} 
+    50%{right: -230px;}
 }
 #globetech{
     color: #D0F344;
@@ -208,6 +211,5 @@ width: 80px;
     margin-top: 40px;
     margin-left: 108px;
     height: 814px;
-    width: 1200px;
     margin-bottom: 40px;
 }
